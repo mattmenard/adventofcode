@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-    1201()
+    aoc1201()
 }
