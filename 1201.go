@@ -9,7 +9,7 @@ import (
 var numbers = map[string]int{"zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
 
 func aoc1201() {
-	lines := getLines("./input.txt")
+	lines := getLines("./input01.txt")
 
 	var result = getCalibrationSum(lines, false)
 	var result2 = getCalibrationSum(lines, true)
